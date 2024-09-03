@@ -1,0 +1,41 @@
+.contacts {
+	padding: 30px 0;
+
+	// .contacts__container
+
+	&__container {
+	}
+
+	// .contacts__content
+
+	&__content {
+		max-width: 485px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	// .contacts__title
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	// .contacts__text
+
+	&__text {
+		max-width: 270px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	// .contacts__button
+
+	&__button {
+		padding: 10px 20px;
+		border-radius: 15px;
+		margin-bottom: 50px;
+		background: black;
+		color: white;
+	}
+}
+

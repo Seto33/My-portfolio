@@ -1,0 +1,21 @@
+.footer {
+	padding: 0 0 30px;
+	background: var(--backround-color);
+
+	// .footer__container
+
+	&__container {
+		text-align: center;
+
+	}
+
+	// .footer__text
+
+	&__text {
+		max-width: 220px;
+		padding-top: 30px;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+}
+
