@@ -1,6 +1,7 @@
 "use strict";
 import "./language/index.js";
 
+
 //Burger
 const nav = document.querySelector(".nav");
 const burger = document.querySelector(".burger");
