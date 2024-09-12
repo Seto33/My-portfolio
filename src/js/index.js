@@ -3,13 +3,15 @@ import "./language/index.js";
 
 
 //Burger
-const nav = document.querySelector(".nav");
-const burger = document.querySelector(".burger");
+export const nav = document.querySelector(".nav");
+export const burger = document.querySelector(".burger");
 
 burger.addEventListener("click", function () {
 	nav.classList.toggle("nav_active");
 	burger.classList.toggle("burger_active");
 });
+
+
 
 
 //Slider

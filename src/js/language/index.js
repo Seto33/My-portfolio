@@ -1,5 +1,5 @@
 // import { langList } from "./langList.js";
-import { slider, scrollToGo } from "../index.js";
+import { slider, scrollToGo, burger, nav } from "../index.js";
 
 
 const buttonRu = document.querySelectorAll(".language__button--ru");
@@ -30,7 +30,13 @@ function changeLanguage(lang) {
 								});
 
 
-
+								const navLinks = document.querySelectorAll(".nav__link")
+								navLinks.forEach(link => {
+									link.addEventListener("click", function(){
+										burger.classList.remove("burger_active");
+										nav.classList.remove("nav_active");
+									})
+								})
 								scrollToGo();
 								break;
 
@@ -39,8 +45,8 @@ function changeLanguage(lang) {
 								item.target.querySelector(".hero__name").innerHTML = data.name;
 								item.target.querySelector(".hero__lastname").innerHTML = data.lastname;
 								item.target.querySelector(".hero__descr").innerHTML = data.description;
-								item.target.querySelector(".hero__img").src = data.img_mobile.url;
-								item.target.querySelector(".hero__picture source").srcset = data.img_desctop.url;
+								item.target.querySelector(".hero__img").src = data.img_mobile.url ?? "";
+								item.target.querySelector(".hero__picture source").srcset = data.img_desctop.url ?? "";
 
 
 								break;
