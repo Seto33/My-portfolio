@@ -1,5 +1,5 @@
 // import { langList } from "./langList.js";
-import { slider } from "../index.js";
+import { slider, scrollToGo } from "../index.js";
 
 
 const buttonRu = document.querySelectorAll(".language__button--ru");
@@ -30,6 +30,8 @@ function changeLanguage(lang) {
 								});
 
 
+
+								scrollToGo();
 								break;
 
 							case "hero":

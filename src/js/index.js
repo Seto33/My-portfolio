@@ -82,7 +82,7 @@ function popupToggle(toggle = false) {
 
 // ScroollTo
 
-function scrollToGo() {
+export function scrollToGo() {
 	const links = document.querySelectorAll(".nav__link");
 
 	links.forEach(link => {
