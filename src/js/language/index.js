@@ -45,8 +45,8 @@ function changeLanguage(lang) {
 								item.target.querySelector(".hero__name").innerHTML = data.name;
 								item.target.querySelector(".hero__lastname").innerHTML = data.lastname;
 								item.target.querySelector(".hero__descr").innerHTML = data.description;
-								item.target.querySelector(".hero__img").src = data.img_mobile.url ?? "";
-								item.target.querySelector(".hero__picture source").srcset = data.img_desctop.url ?? "";
+								item.target.querySelector(".hero__img").src = data.img_mobile?.url ?? "";
+								item.target.querySelector(".hero__picture source").srcset = data.img_desctop?.url ?? "";
 
 
 								break;
