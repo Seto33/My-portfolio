@@ -32,8 +32,8 @@ export const langList = {
 			en: "Hakobjanyan"
 		},
 		text: {
-			ru: "Фул стек разработчик, 43 года, Ереван",
-			en: "Full Stack Developer, 43 years old, Yerevan"
+			ru: "Фронтенд разработчик, 43 года, Ереван",
+			en: "Front-end Developer, 43 years old, Yerevan"
 		},
 	},
 
@@ -43,7 +43,7 @@ export const langList = {
 			en: "About me"
 		},
 		text1: {
-			ru: "Увлеченный Фул стек разработчик с сильным набором технических и нетехнических навыков и стремлением создавать полезные веб-сайты.",
+			ru: "Увлеченный Фронтенд разработчик с сильным набором технических и нетехнических навыков и стремлением создавать полезные веб-сайты.",
 			en: "An enthusiastic Front-end Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful web sites."
 		},
 		text2: {
@@ -93,8 +93,8 @@ export const langList = {
 			en: "Reebok Store - Concept"
 		},
 		descr6:{
-			ru: "Целевая страница Braun - концепция",
-			en: "Braun Landing Page - Concept"
+			ru: "F&B Целевая страница - Артефакты",
+			en: "F&B Landing page - Artefacts"
 		},
 	},
 
