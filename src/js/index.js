@@ -6,11 +6,11 @@ export const URL = "https://portfolio-backend-r60w.onrender.com";
 const getElemnts = (char, item) => {
   Object.entries(item).forEach(([key, value]) => {
     const elem = document.querySelector(`[data-item="${char}"]`).querySelector(`[data-lang="${key}"]`)
-    if (elem && typeof value === 'string') {
+    if (elem && typeof value === "string") {
       elem.textContent = value;
     }
 
-    if (elem && 'src' in elem && 'srcset' in elem && typeof value === 'object') {
+    if (elem && "src" in elem && "srcset" in elem && typeof value === "object") {
       elem.src = value.url;
       elem.srcset = value.url;
     }
