@@ -2,24 +2,63 @@
 <html class="page" lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/index.min.css">
-  <link rel="shortcut icon" href="./img/favicon/favicon-32x32.png" type="image/x-icon">
-	<title>Sedrak Hakobjanyan Portfolio</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/index.min.css" />
+	<title>Portfolio</title>
+	<style>
+		.loading {
+			position: fixed;
+			inset: 0;
+			z-index: 1000;
+			background-color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.loading__spinner {
+			width: 48px;
+			height: 48px;
+			border: 5px solid #000;
+			border-bottom-color: transparent;
+			border-radius: 50%;
+			display: inline-block;
+			box-sizing: border-box;
+			animation: rotation 1s linear infinite;
+		}
+
+		@keyframes rotation {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+	</style>
 </head>
+<!-- barev -->
 
 <body class="page__body">
+	<!-- loading -->
+	<div class="loading">
+		<span class="loading__spinner"></span>
+	</div>
+	<!-- header -->
 	@include('./common.blocks/header.html')
 	<main class="main">
 		<h1 class="visually-hidden">Portfolio Sedrak Hakobjanyan</h1>
+		<!-- sections -->
 		@include('./common.blocks/hero.html')
 		@include('./common.blocks/about.html')
 		@include('./common.blocks/skills.html')
 		@include('./common.blocks/portfolio.html')
 		@include('./common.blocks/contacts.html')
+		<!-- /sections -->
 	</main>
-	@include('./common.blocks/footer.html')
 	@include('./common.blocks/popup.html')
 	<script src="js/index.min.js"></script>
 </body>
