@@ -2,12 +2,11 @@
   height: 100%;
   font-family: var(--font-family, sans-serif);
   -webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
 }
 
 .page_ios .dis-scroll {
 	position: relative;
-
-scroll-behavior: smooth;
 
 }
 

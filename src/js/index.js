@@ -34,15 +34,3 @@ const FormButton = document.querySelector(".form__button");
 FormButton.addEventListener("click", () => popupToggle());
 
 
-
-
-fetch('https://fmahwcxqaoqqgfkinrue.supabase.co', {
-	method: "POST",
-	body: "hello"
-}).then(res => res.json())
-	.then(data => {
-		console.log(data);
-	})
-	.catch(error => {
-		console.error(error);
-	});
