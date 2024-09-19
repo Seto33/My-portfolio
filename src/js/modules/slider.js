@@ -19,12 +19,12 @@ export function slider(elem) {
 				behavior: "smooth",
 			});
 
-			// if (
-			// 	sliderList.scrollLeft ===
-			// 	sliderList.scrollWidth - sliderList.offsetWidth
-			// ) {
-			// 	sliderList.scrollLeft = 0;
-			// }
+			if (
+				sliderList.scrollLeft ===
+				sliderList.scrollWidth - sliderList.offsetWidth
+			) {
+				sliderList.scrollLeft = 0;
+			}
 		});
 	});
 

@@ -217,7 +217,7 @@
                 <ul class="slider__list portfolio__list container">
                     <li class="slider__slide portfolio__slide">
                         <picture><source srcset="img/portfolio/F&B.webp" type="image/webp"><img class="portfolio__slide-img" src="img/portfolio/F&B.png" alt="F&B.png" width="260" height="260"></picture>
-                        <a class="portfolio__slide-link" href="https://seto33.github.io/F-B/">F&B Landing page — Artefacts</a>
+                        <a class="portfolio__slide-link" href="https://seto33.github.io/F-B/" target="_blank">F&B Landing page — Artefacts</a>
                     </li>
                     <li class="slider__slide portfolio__slide">
                         <img class="portfolio__slide-img" src="img/portfolio/Electronic shop.jpg" alt="Electronic shop.jpg" width="260" height="260">
@@ -255,7 +255,7 @@
             <ul class="social" title="social" aria-label="social list links">
                 <li class="social__item">
                     <a class="social__link" href="#">
-                        <svg>
+                        <svg class="social__icon">
                             <use xlink:href="img/svg/sprite.svg#facebook"/>
                             </svg>
                     </a>
@@ -263,7 +263,7 @@
 
                 <li class="social__item">
                     <a class="social__link" href="#">
-                        <svg>
+                        <svg class="social__icon">
                             <use xlink:href="img/svg/sprite.svg#linkedin"/>
                             </svg>
                     </a>
@@ -271,7 +271,7 @@
 
                 <li class="social__item">
                     <a class="social__link" href="#">
-                        <svg>
+                        <svg class="social__icon">
                             <use xlink:href="img/svg/sprite.svg#instagram"/>
                             </svg>
                     </a>
@@ -279,13 +279,12 @@
 
                 <li class="social__item">
                     <a class="social__link" href="#">
-                        <svg>
+                        <svg class="social__icon">
                             <use xlink:href="img/svg/sprite.svg#youtube"/>
                             </svg>
                     </a>
                 </li>
             </ul>
-            <p class="text contacts__text" data-lang="contacts-footer">Like me on Facebook, LinkedIn, Instagram, Youtube</p>
         </div>
     </div>
 </section>
@@ -307,7 +306,7 @@
             <label class="form__label">
                 <input type="tel" name="tel" data-lang="popup-phone" class="form__input input-reset" placeholder="phone" />
             </label>
-            <textarea class="form__textarea" name="popup-message" id="" data-lang="message" placeholder="message"></textarea>
+            <textarea class="form__textarea" name="popup-message" id="" data-lang="popup-message" placeholder="message"></textarea>
 
             <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
             <input type="hidden" name="redirect" value="http://localhost:3000" />
@@ -317,6 +316,11 @@
         </form>
     </div>
 </div>
+    <footer class="footer">
+<div class="footer__container container">
+    <p class="footer__text text" data-lang="footer-text">Like me on Facebook, LinkedIn, Instagram, Youtube</p>
+</div>
+</footer>
     <script src="js/index.min.js"></script>
 </body>
 

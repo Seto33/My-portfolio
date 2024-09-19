@@ -86,15 +86,14 @@ export const langList = {
 			ru: "Отправить сообщение",
 			en: "Send Message",
 		},
-		footer: {
-
-				ru: "Поставьте мне лайк в Facebook, LinkedIn, Instagram, Youtube",
-				en: "Like me on Facebook, LinkedIn, Instagram, Youtube",
-			},
-		
 	},
 
-
+	footer: {
+		text: {
+			ru: "Поставьте мне лайк в Facebook, LinkedIn, Instagram, Youtube",
+			en: "Like me on Facebook, LinkedIn, Instagram, Youtube",
+		},
+	},
 
 	popup: {
 		close: {
