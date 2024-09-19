@@ -2,25 +2,24 @@ export const langList = {
 	header: {
 		home: {
 			ru: "Главная",
-			en: "Home"
+			en: "Home",
 		},
 		about: {
 			ru: "Обо мне",
-			en: "About me"
+			en: "Aboute me",
 		},
 		skills: {
 			ru: "Навыки",
-			en: "Skills"
+			en: "Skills",
 		},
 		portfolio: {
 			ru: "Портфолио",
-			en: "Portfolio"
+			en: "Portfolio",
 		},
 		contacts: {
 			ru: "Контакты",
-			en: "Contacts"
+			en: "Contacts",
 		},
-
 	},
 	hero: {
 		name: {
@@ -32,19 +31,19 @@ export const langList = {
 			en: "Hakobjanyan"
 		},
 		text: {
-			ru: "Фронтенд разработчик, 43 года, Ереван",
-			en: "Front-end Developer, 43 years old, Yerevan"
+			ru: "Фул стек разработчик, 43 года, Ереван",
+			en: "Full Stack Developer, 43 years old, Yerevan"
 		},
 	},
 
 	about: {
 		title: {
 			ru: "Обо мне",
-			en: "About me"
+			en: "Aboute me"
 		},
 		text1: {
-			ru: "Увлеченный Фронтенд разработчик с сильным набором технических и нетехнических навыков и стремлением создавать полезные веб-сайты.",
-			en: "An enthusiastic Front-end Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful web sites."
+			ru: "Увлеченный Фул стек разработчик с сильным набором технических и нетехнических навыков и стремлением создавать полезные веб-сайты.",
+			en: "An enthusiastic Full Stack Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful web sites."
 		},
 		text2: {
 			ru: "Я учусь на курсах «Full Stack Developer» в «WELCOME TO IT».",
@@ -52,100 +51,98 @@ export const langList = {
 		},
 		text3: {
 			ru: "Готов реализовать отличные проекты с замечательными людьми.",
-			en: "Ready to implement excellent projects with wonderful people."
+			en: "Ready to implement exellent projects with wonderful people."
 		},
 	},
 
 	skills: {
 		title: {
 			ru: "Навыки",
-			en: "Skills"
+			en: "Skills",
 		},
 		text: {
 			ru: "Я работаю в таких программах как",
-			en: "I work in such programs as"
+			en: "I work in such programs as",
 		},
 	},
 
 	portfolio: {
 		title: {
 			ru: "Портфолио",
-			en: "Portfolio"
+			en: "Portfolio",
 		},
-		descr1:{
+		descr1: {
 			ru: "Интернет-магазин электроники - Главная страница",
-			en: "Online electronic store - Homepage"
+			en: "Online electronic store - Homepage",
 		},
-		descr2:{
+		descr2: {
 			ru: "YX - Домашняя страница",
-			en: "YX - Homepage"
+			en: "YX - Homepage",
 		},
-		descr3:{
+		descr3: {
 			ru: "Швейцария - Домашняя страница",
-			en: "Switzerland - Homepage"
+			en: "Switzerland - Homepage",
 		},
-		descr4:{
+		descr4: {
 			ru: "Целевая страница Braun - концепция",
-			en: "Braun Landing Page - Concept"
+			en: "Braun Landing Page - Concept",
 		},
-		descr5:{
+		descr5: {
 			ru: "Магазин Reebok - концепция",
-			en: "Reebok Store - Concept"
+			en: "Reebok Store - Concept",
 		},
-		descr6:{
-			ru: "F&B Целевая страница - Артефакты",
-			en: "F&B Landing page - Artefacts"
+		descr6: {
+			ru: "Целевая страница Braun - концепция",
+			en: "Braun Landing Page - Concept",
 		},
 	},
 
 	contacts: {
 		title: {
 			ru: "Контакты",
-			en: "Contacts"
+			en: "Contacts",
 		},
 		text: {
 			ru: "Хотите узнать больше или просто пообщаться? Пожалуйста!",
-			en: "Want to know more or just chat? You are welcome!"
+			en: "Want to know more or just chat? You are welcome!",
 		},
 		button: {
 			ru: "Отправить сообщение",
-			en: "Send Message"
+			en: "Send Message",
 		},
 	},
 
 	footer: {
 		text: {
 			ru: "Поставьте мне лайк в Facebook, LinkedIn, Instagram, Youtube",
-			en: "Like me on Facebook, LinkedIn, Instagram, Youtube"
+			en: "Like me on Facebook, LinkedIn, Instagram, Youtube",
 		},
 	},
 
 	popup: {
 		buttonClose: {
 			ru: "Закрыть",
-			en: "Close"
+			en: "Close",
 		},
 		name: {
 			ru: "Имя",
-			en: "Name"
+			en: "Name",
 		},
 		email: {
 			ru: "Почта",
-			en: "Email"
+			en: "Email",
 		},
 		phone: {
 			ru: "Телефон",
-			en: "Phone"
+			en: "Phone",
 		},
 		message: {
 			ru: "Сообщение",
-			en: "Message"
+			en: "Message",
 		},
 		buttonSend: {
 			ru: "Отправить",
-			en: "Send"
+			en: "Send",
 		},
 	},
-
-
-}
+};
