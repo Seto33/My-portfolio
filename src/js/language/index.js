@@ -18,8 +18,10 @@ function changeLanguage(lang) {
 		const [key,value] = data.split("-");
 
 		if(key && value && lang){
+			if(item.textContent && !item.placeholder){
+				item.textContent = langList[key][value][lang];
+			}
 
-			item.textContent = langList[key][value][lang];
 			if(item.placeholder){
 				item.placeholder = langList[key][value][lang];
 			}
