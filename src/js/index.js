@@ -1,5 +1,39 @@
 "use strict";
-import "./language/index.js";
+// import "./language/index.js";
+export const URL = "https://portfolio-backend-r60w.onrender.com";
+
+
+const getElemnts = (char, item) => {
+  Object.entries(item).forEach(([key, value]) => {
+    const elem = document.querySelector(`[data-item="${char}"]`).querySelector(`[data-lang="${key}"]`)
+    if (elem && typeof value === 'string') {
+      elem.textContent = value;
+    }
+
+    if (elem && 'src' in elem && 'srcset' in elem && typeof value === 'object') {
+      elem.src = value.url;
+      elem.srcset = value.url;
+    }
+  })
+}
+
+
+fetch(`${URL}/api/page?populate[content][populate]=desktop,mobile,skills.img,portfolio.img,social.icon,links`)
+  .then((response) => response.json())
+  .then(({ data }) => {
+    console.log(data);
+    data.content.forEach((item) => {
+      const char = item.__component.slice(11)
+      getElemnts(char, item)
+    })
+  })
+  .catch((error) => {
+    console.log(error);
+  })
+  .finally(() => {
+    // document.querySelector('.loading').remove();
+  });
+
 
 
 //Burger

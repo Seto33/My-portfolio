@@ -44,7 +44,7 @@ export const langList = {
 		},
 		text1: {
 			ru: "Увлеченный Фул стек разработчик с сильным набором технических и нетехнических навыков и стремлением создавать полезные веб-сайты.",
-			en: "An enthusiastic Full Stack Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful web sites."
+			en: "An enthusiastic Front-end Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful web sites."
 		},
 		text2: {
 			ru: "Я учусь на курсах «Full Stack Developer» в «WELCOME TO IT».",
