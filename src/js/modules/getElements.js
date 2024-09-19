@@ -3,7 +3,7 @@ export function getElements(char, item) {
 		const elem = document.querySelector(`[data-item="${char}"]`)?.querySelector(`[data-lang="${key}"]`)
 
 		if (elem && typeof value === 'string') {
-			elem.textContent = value;
+			elem.innerHTML = value;
 			if ('placeholder' in elem) {
 				elem.placeholder = value;
 			}
