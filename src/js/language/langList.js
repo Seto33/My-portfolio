@@ -31,8 +31,8 @@ export const langList = {
 			en: "Hakobjanyan"
 		},
 		text: {
-			ru: "Фул стек разработчик, 43 года, Ереван",
-			en: "Full Stack Developer, 43 years old, Yerevan"
+			ru: "Фронтенд разработчик, 43 года, Ереван",
+			en: "Frontend Developer, 43 years old, Yerevan"
 		},
 	},
 
@@ -42,8 +42,8 @@ export const langList = {
 			en: "Aboute me"
 		},
 		text1: {
-			ru: "Увлеченный Фул стек разработчик с сильным набором технических и нетехнических навыков и стремлением создавать полезные веб-сайты.",
-			en: "An enthusiastic Full Stack Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful web sites."
+			ru: "Увлеченный Фронтенд разработчик с сильным набором технических и нетехнических навыков и стремлением создавать полезные веб-сайты.",
+			en: "An enthusiastic Frontend Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful web sites."
 		},
 		text2: {
 			ru: "Я учусь на курсах «Full Stack Developer» в «WELCOME TO IT».",
@@ -71,30 +71,6 @@ export const langList = {
 			ru: "Портфолио",
 			en: "Portfolio",
 		},
-		descr1: {
-			ru: "Интернет-магазин электроники - Главная страница",
-			en: "Online electronic store - Homepage",
-		},
-		descr2: {
-			ru: "YX - Домашняя страница",
-			en: "YX - Homepage",
-		},
-		descr3: {
-			ru: "Швейцария - Домашняя страница",
-			en: "Switzerland - Homepage",
-		},
-		descr4: {
-			ru: "Целевая страница Braun - концепция",
-			en: "Braun Landing Page - Concept",
-		},
-		descr5: {
-			ru: "Магазин Reebok - концепция",
-			en: "Reebok Store - Concept",
-		},
-		descr6: {
-			ru: "Целевая страница Braun - концепция",
-			en: "Braun Landing Page - Concept",
-		},
 	},
 
 	contacts: {
@@ -110,17 +86,18 @@ export const langList = {
 			ru: "Отправить сообщение",
 			en: "Send Message",
 		},
+		footer: {
+
+				ru: "Поставьте мне лайк в Facebook, LinkedIn, Instagram, Youtube",
+				en: "Like me on Facebook, LinkedIn, Instagram, Youtube",
+			},
+		
 	},
 
-	footer: {
-		text: {
-			ru: "Поставьте мне лайк в Facebook, LinkedIn, Instagram, Youtube",
-			en: "Like me on Facebook, LinkedIn, Instagram, Youtube",
-		},
-	},
+
 
 	popup: {
-		buttonClose: {
+		close: {
 			ru: "Закрыть",
 			en: "Close",
 		},
@@ -140,7 +117,7 @@ export const langList = {
 			ru: "Сообщение",
 			en: "Message",
 		},
-		buttonSend: {
+		send: {
 			ru: "Отправить",
 			en: "Send",
 		},

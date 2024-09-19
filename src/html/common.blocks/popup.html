@@ -1,24 +1,24 @@
 <div class="popup" data-item="popup">
 	<div class="popup__content">
-		<button class="popup__button-close" data-lang="close">
+		<button class="popup__button-close" data-lang="popup-close">
 			Close
 		</button>
 		<form action="https://api.web3forms.com/submit" method="POST" class="form">
 			<input type="hidden" name="access_key" value="6b4e70b3-3793-4c97-82fc-4d384f4e1455" />
 			<label class="form__label">
-				<input type="text" name="name" data-lang="name" class="form__input input-reset" placeholder="name" />
+				<input type="text" name="name" data-lang="popup-name" class="form__input input-reset" placeholder="name" />
 			</label>
 			<label class="form__label">
-				<input type="email" name="email" data-lang="email" class="form__input input-reset" placeholder="email" />
+				<input type="email" name="email" data-lang="popup-email" class="form__input input-reset" placeholder="email" />
 			</label>
 			<label class="form__label">
-				<input type="tel" name="tel" data-lang="phone" class="form__input input-reset" placeholder="phone" />
+				<input type="tel" name="tel" data-lang="popup-phone" class="form__input input-reset" placeholder="phone" />
 			</label>
-			<textarea class="form__textarea" name="message" id="" data-lang="message" placeholder="message"></textarea>
+			<textarea class="form__textarea" name="popup-message" id="" data-lang="message" placeholder="message"></textarea>
 
 			<input type="checkbox" name="botcheck" class="hidden" style="display: none" />
 			<input type="hidden" name="redirect" value="http://localhost:3000" />
-			<button class="form__button button-reset" data-lang="send">
+			<button class="form__button button-reset" data-lang="popup-send">
 				Send
 			</button>
 		</form>

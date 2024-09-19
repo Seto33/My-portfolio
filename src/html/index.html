@@ -6,47 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="css/index.min.css" />
 	<title>Portfolio</title>
-	<style>
-		.loading {
-			position: fixed;
-			inset: 0;
-			z-index: 1000;
-			background-color: #fff;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
-		}
-
-		.loading__spinner {
-			width: 48px;
-			height: 48px;
-			border: 5px solid #000;
-			border-bottom-color: transparent;
-			border-radius: 50%;
-			display: inline-block;
-			box-sizing: border-box;
-			animation: rotation 1s linear infinite;
-		}
-
-		@keyframes rotation {
-			0% {
-				transform: rotate(0deg);
-			}
-
-			100% {
-				transform: rotate(360deg);
-			}
-		}
-	</style>
 </head>
 <!-- barev -->
 
 <body class="page__body">
-	<!-- loading -->
-	<div class="loading">
-		<span class="loading__spinner"></span>
-	</div>
+
 	<!-- header -->
 	@include('./common.blocks/header.html')
 	<main class="main">

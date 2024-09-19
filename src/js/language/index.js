@@ -1,4 +1,4 @@
-import { fetchData } from "../modules/index.js";
+import { langList } from "./langList.js";
 
 const buttonRu = document.querySelectorAll(".language__button--ru");
 const buttonEng = document.querySelectorAll(".language__button--eng");
@@ -11,10 +11,22 @@ let currentLanguage =
 
 function changeLanguage(lang) {
 
+	document.querySelectorAll(`[data-lang]`).forEach(item =>{
+		const data = item.dataset.lang;
+
+
+		const [key,value] = data.split("-");
+
+		if(key && value && lang){
+
+			item.textContent = langList[key][value][lang];
+		}
+
+	});
+
 	localStorage.setItem("language", lang);
 	window.location.hash = lang;
 
-	fetchData(lang);
 }
 
 changeLanguage(currentLanguage);
