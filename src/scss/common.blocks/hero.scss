@@ -37,14 +37,13 @@
 	// .hero__name-wrapper
 	&__name-wrapper {
 		display: flex;
-
 		justify-content: space-between;
 	}
 
 	// .hero__descr
 
 	&__text {
-		max-width: 186px;
+		max-width: 185px;
 	}
 
 	&__language {
