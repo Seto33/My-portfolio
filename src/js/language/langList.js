@@ -32,7 +32,7 @@ export const langList = {
 		},
 		text: {
 			ru: "Фронтенд разработчик, 43 года, Ереван",
-			en: "Frontend Developer, 43 years old, Yerevan"
+			en: "Frontend Developer, <br>43 years old, Yerevan"
 		},
 	},
 
@@ -47,11 +47,11 @@ export const langList = {
 		},
 		text2: {
 			ru: "Я учусь на курсах «Full Stack Developer» в «WELCOME TO IT».",
-			en: "I'm studying at courses 'Full Stack Developer' in 'WELCOME TO IT'."
+			en: "I'm studying at courses 'Full Stack Developer' <br>in 'WELCOME TO IT'."
 		},
 		text3: {
 			ru: "Готов реализовать отличные проекты с замечательными людьми.",
-			en: "Ready to implement exellent projects with wonderful people."
+			en: "Ready to implement exellent projects with <br>wonderful people."
 		},
 	},
 

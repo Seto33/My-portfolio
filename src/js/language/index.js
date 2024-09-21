@@ -19,7 +19,7 @@ function changeLanguage(lang) {
 
 		if(key && value && lang){
 			if(item.textContent && !item.placeholder){
-				item.textContent = langList[key][value][lang];
+				item.innerHTML = langList[key][value][lang];
 			}
 
 			if(item.placeholder){
