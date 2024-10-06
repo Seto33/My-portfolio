@@ -1,21 +1,29 @@
 "use strict";
 import { popupToggle, slider } from "./modules/index.js";
 import "./language/index.js";
+import { disableScroll, enableScroll } from "./librarys/scrollController.js";
 
 //Burger
 const nav = document.querySelector(".nav");
 const burger = document.querySelector(".burger");
 const navLinks = document.querySelectorAll(".nav__link");
-navLinks.forEach(link =>{
-	link.addEventListener("click", function (){
+navLinks.forEach(link => {
+	link.addEventListener("click", function () {
 		nav.classList.remove("nav_active");
-	burger.classList.remove("burger_active");
+		burger.classList.remove("burger_active");
+		enableScroll();
 	})
 })
 
 burger.addEventListener("click", function () {
 	nav.classList.toggle("nav_active");
 	burger.classList.toggle("burger_active");
+	if (burger.classList.contains("burger_active")) {
+		disableScroll();
+	}
+	else{
+		enableScroll();
+	}
 });
 
 //popup
